@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="exer1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div id="outside">
+        <div id="container">
+            <h1 id="location"></h1>
+            <div id="weather-box">
+                <div id="weather">
+                    <img id="weather-icon" src="" alt="">
+                    <h2 id="weather-main"></h2>
+                    <h3 id="weather-desc"></h2>
+                </div>
+                <div class="info">
+                    <h1><span id="crt-temp"></span> °C</h1> 
+                    <h3>Feels like : <span id="crt-feeltemp"></span>°C</h3>
+                    <h3></h3>
+                </div>
+                <div class="info">
+                    <h3>Wind Speed : <span id="wind-speed"></span></h3>
+                    <h3>Wind Deg : <span id="wind-deg"></span></h3>
+                </div>
+            </div>
+            <div id="forecast">
+                <div class="forecast-block">
+                    <h2></h2>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <h3></h3>
+                    <div class="forecast-temp-card">
+                        <h3>min : <span class="forecast-min-temp"></span>°C</h3>
+                        <h3>max : <span class="forecast-max-temp"></span>°C</h3>
+                    </div>
+                </div>
+                <div class="forecast-block">
+                    <h2></h2>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <h3></h3>
+                    <div class="forecast-temp-card">
+                        <h3>min : <span class="forecast-min-temp"></span>°C</h3>
+                        <h3>max : <span class="forecast-max-temp"></span>°C</h3>
+                    </div>
+                </div>
+                <div class="forecast-block">
+                    <h2></h2>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <h3></h3>
+                    <div class="forecast-temp-card">
+                        <h3>min : <span class="forecast-min-temp"></span>°C</h3>
+                        <h3>max : <span class="forecast-max-temp"></span>°C</h3>
+                    </div>
+                </div>
+                <div class="forecast-block">
+                    <h2></h2>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <h3></h3>
+                    <div class="forecast-temp-card">
+                        <h3>min : <span class="forecast-min-temp"></span>°C</h3>
+                        <h3>max : <span class="forecast-max-temp"></span>°C</h3>
+                    </div>
+                </div>
+                <div class="forecast-block">
+                    <h2></h2>
+                    <img src="" alt="">
+                    <h2></h2>
+                    <h3></h3>
+                    <div class="forecast-temp-card">
+                        <h3>min : <span class="forecast-min-temp"></span>°C</h3>
+                        <h3>max : <span class="forecast-max-temp"></span>°C</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="button-box">
+            <button class="location-button" onclick="currentApi('Kuala Lumpur')">Kuala Lumpur</button>
+            <button class="location-button" onclick="currentApi('Pulau Pinang')">Pulau Pinang</button>
+            <button class="location-button" onclick="currentApi('Johor')">Johor</button>
+            <button class="location-button" onclick="currentApi('Sarawak')">Sarawak</button>
+            <button class="location-button" onclick="currentApi('Tokyo')">Tokyo</button>
+            
+        </div>
+        
+    </div>
+    
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="exer1.js"></script>
+</html>
